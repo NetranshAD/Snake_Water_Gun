@@ -22,6 +22,7 @@ print(f"You chose {reverseDict[num]}\nComputer chose {reverseDict[comp]}")
 if(comp==num):
     print("It's a Draw!")
 else:
+    
     #losing conditions
     if(comp==1 and num == -1):
         print("You lose!")
@@ -29,6 +30,7 @@ else:
         print("You lose!")
     elif(comp==0 and num == 1):
         print("You lose!")
+        
     #winning condition
     elif(comp==1 and num == 0):
         print("You win!")
@@ -36,5 +38,7 @@ else:
         print("You win!")
     elif(comp==0 and num == -1):
         print("You win!")
+    
+    #error condition
     else:
         ("An error occurred")
