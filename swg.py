@@ -1,6 +1,6 @@
 import random
 
-# choose a random number between 0,1,-1
+# computer chooses a random number between 0,1,-1
 comp=random.choice([1,0,-1])
 
 #enter s for snake, w for water, g for gun
